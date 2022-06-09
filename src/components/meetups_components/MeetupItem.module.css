@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+  @apply max-w-sm bg-white my-3 rounded-lg border border-gray-200 shadow-md;
+}
+
+.content {
+  @apply p-2;
+}
+
+.action {
+  @apply inline-flex items-center mx-2 my-3 rounded-lg py-1 px-3 text-sm text-center text-white hover:bg-green-200 bg-green-500;
+}

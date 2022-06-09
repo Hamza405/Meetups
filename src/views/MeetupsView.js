@@ -24,7 +24,7 @@ const DUMMY_DATA = [
 function MeetupsView() {
   return (
     <div>
-      <h1>All Meetups</h1>
+      <h1 className="text-2xl my-5">All Meetups</h1>
       <MeetupList items={DUMMY_DATA} />
     </div>
   );
