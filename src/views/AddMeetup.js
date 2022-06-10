@@ -1,7 +1,14 @@
 import AddMeetupForm from "../components/meetups_components/AddMeetupForm";
 function AddMeetupView() {
   function addMeetup(submitData) {
-    // fetch("https://tishreen-62882-default-rtdb.firebaseio.com/meetups.json");
+    // TODO: listen to result and show alert with it
+    fetch("https://tishreen-62882-default-rtdb.firebaseio.com/meetups.json", {
+      method: "POST",
+      body: JSON.stringify(submitData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
   }
   return (
     <div>
