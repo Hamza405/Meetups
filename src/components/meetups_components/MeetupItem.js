@@ -1,5 +1,5 @@
 import classes from "./MeetupItem.module.css";
-import Card from "../Card";
+import Card from "../ui_element/Card";
 
 function MeetupItem(props) {
   return (
