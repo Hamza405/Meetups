@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import MeetupsView from "./views/MeetupsView";
-import FavoritesMeetups from "./views/FavoritesMeetups";
-import AddMeetup from "./views/AddMeetup";
+import MeetupsView from "./pages/MeetupsView";
+import FavoritesMeetups from "./pages/FavoritesMeetups";
+import AddMeetup from "./pages/AddMeetup";
 import MainLayout from "./components/layout/MainLayout";
 
 function App() {
